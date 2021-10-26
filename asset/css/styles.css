@@ -1,0 +1,1637 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+
+
+
+.bakso-bg-hp {
+    display: none;
+}
+
+.ilusi-hp {
+    display: none;
+}
+
+.round-black-hp {
+    display: none;
+}
+
+* {
+    overflow-x: hidden;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #081420;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #dedada;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+.container {
+    width: 88.8%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar Section */
+
+.container-handphone {
+    padding-top: 10px;
+}
+
+#navbar {
+    
+background: rgba(8, 20, 32, 0.5);
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+   
+    padding: 17px 80px 17px 80px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+
+
+.logo {
+    width: 11.6%;
+    margin-top: -5px;
+}
+
+#myTopnav {
+    float: right;
+    margin-right: 75px;
+    padding-right: 70px;
+    padding-top: 0px;
+    font-size: 14.5px;
+}
+
+
+#myTopnav a {
+    float: left;
+    margin: auto 23px;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 11px;
+    margin-top: 8px;
+}
+
+
+
+.button-login {
+    border: 2px solid white;
+    padding: 8px 23px;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+.button-login:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* Hero Section  */
+
+#hero {
+    margin-top: 7.4%;
+
+}
+
+.hero-view {
+    display: flex;
+    padding-top: 12.5%;
+    padding-left: 14.5%;
+}
+
+.hero-view img {
+    min-width: 41.8%;
+}
+
+.hero-view-text {
+    margin-top: 10%;
+    margin-left: 10.5%;
+}
+
+.hero-view-text p {
+    font-size: 30.5px;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+.button-h {
+    display: flex;
+    background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
+    border-radius: 10px;
+    padding: 11px 13px;
+    border: none;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-top: 11.8%;
+   
+}
+
+.arrow-right-h {
+    margin-left: 42px;
+    position: relative;
+    top: 3px;
+}
+
+.text-button-more {
+    font-family: Rowdies;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/* Div sponsor */
+
+.sponsor h3 {
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+
+    padding-left: 73.5%;
+    position: relative;
+    bottom: 15px;
+}
+
+.sponsor {
+    padding-top: 5.5%;
+    margin-left: 73.5%;
+    width: 30%;
+    color: white;
+}
+
+.sponsor img {
+    max-width: 18%;
+    padding-right: 3.4%;
+}
+
+.indosat-logo {
+    margin-bottom: 3%;
+}
+
+/* Hero Background */
+
+.oren-bg {
+    max-width: 42%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -5;
+}
+
+.round-black {
+    margin-top: 4%;
+    max-width: 62%;
+    position: absolute;
+    right: 0;
+    z-index: -11;
+}
+
+/* Sponsor Background */
+
+.hex-bg {
+    top: 72%;
+    position: absolute;
+    max-width: 27.7%;
+}
+
+/* About Section */
+
+#about {
+    color: white;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.about {
+    margin-left: 34.3%;
+    margin-top: 21%;
+}
+
+.about h2 {
+    font-size: 54px;
+}
+
+.isi-about h3 {
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+.isi-about {
+    font-size: 21px;
+    line-height: 1.3;
+    width: 86%;
+}
+
+.isi-about p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130.2%;
+    text-align: justify;
+    letter-spacing: 0.015em;
+    margin-top: 3.3%;
+}
+
+.p-2_about {
+    padding-top: 1.2%;
+}
+
+.about-button {
+    background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
+    border-radius: 10px;
+    padding-left: 19px;
+    border: none;
+    padding-bottom: 16px;
+    font-size: 22px;
+    margin-top: 37px;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19.5px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+.arrow-right-a {
+    padding-top: 5.4px;
+    padding-left: 30px;
+    max-width: 11.5%;
+    position: relative;
+    top: 6px;
+    right: 6px;
+    padding-right: 7px;
+}
+
+.button-about-text {
+    font-weight: 300;
+}
+
+/* About Background */
+
+.mie-bg {
+    position: absolute;
+    right: 0;
+    top: 21.2%;
+    max-width: 12%;
+}
+
+.bakso-bg {
+    position: relative;
+    margin-top: 7%;
+}
+
+/* Main Card */
+#competition {
+    margin-top: 1.3%;
+}
+
+
+.card-competition {
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+}
+
+/* Card Styles */
+.card {
+    background-color: #151F29;
+    margin-right: 1.5%;
+    margin-top: 1.2%;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: white;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.625rem;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+/* Content Card */
+
+#competition {
+    margin-top: 26.8%;
+}
+
+.heading-comp {
+    
+    color: white;
+    text-align: center;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+    overflow-y: hidden;
+}
+
+
+/* Image Card */
+
+.laptop-c {
+    max-width: 54%;
+    padding-top: 16%;
+}
+
+.hp-c {
+    max-width: 32%;
+    padding-right: 2%;
+    padding-top: 11%;
+}
+
+.server-c {
+    max-width: 36%;
+    padding-right: 3%;
+    padding-top: 7%;
+}
+
+
+
+/* Card Text and Button */
+
+.card-text-dmm {
+    padding-top: 7%;
+}
+
+.card-text-rpl {
+    padding-top: 13.8%;
+}
+
+.card-text-tkj {
+    padding-top: 9%;
+}
+
+.card-small {
+    padding-right: 2%;
+}
+
+.text-button-card {
+    text-decoration: none;
+    color: white;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 114.2%;
+    /* or 27px */
+
+    
+    letter-spacing: 0.05em;
+}
+
+
+
+.button-card {
+    background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
+    border-radius: 10px;
+    padding: 0.875rem 5.875rem;
+    border: none;
+    cursor: pointer;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+@media  (min-width: 965px) and (max-width: 960px) {
+    .button-card {
+        padding: 0.875rem 2.875rem;
+    }
+    
+    
+}
+
+/* Competition Background */
+
+.bakso-bg {
+    position: absolute;
+    top: 176%;
+    max-width: 30%;
+    z-index: -8;
+}
+
+.omlet-bg {
+    z-index: -8;
+    position: absolute;
+    right: 0;
+    top: 216%;
+    max-width: 25.5%;
+}
+
+/* Event Section */
+
+.event {
+    text-align: center;
+
+}
+
+.event h3 {
+    color: white;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+.card-event {
+    display: flex;
+    margin-top: 1.3%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-left: 6.6%;
+
+}
+
+
+/* Card Rectangle */
+
+
+.card-e {
+
+    background-color: #151F29;
+    padding: 16%;
+    padding-left: 30%;
+    padding-bottom: 14.8%;
+    margin-right: 2%;
+    border-radius: 20px 0 20px 20px;
+}
+
+.webinar-1 {
+    background: url("../img/webinar-1.jpeg");
+    background-size: cover;
+}
+
+.webinar-2 {
+    background: url("../img/webinar-2.jpeg");
+    background-size: cover;
+}
+
+.webinar-3 {
+    background: url("../img/webinar-3.jpeg");
+    background-size: cover;
+}
+
+/* Timeline Section */
+
+#timeline {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+
+#timeline h1 {
+    font-size: 50px;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 56px; */
+    padding-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+#timeline img {
+    width: 6%;
+    height: 770px;
+    padding-top: 1.5%;
+}
+
+#timeline p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+
+}
+
+.detail-babak {
+    text-align: left;
+    margin-left: 3.6%;
+
+    width: 100%;
+}
+
+#timeline h1 {
+    margin-top: 9.5%;
+    padding-top: 16.8px;
+
+}
+
+.pendaftaran {
+    margin-top: 7%;
+    display: flex;
+    text-align: center;
+    padding-left: 35.5%;
+}
+
+
+.item-babak {
+    margin-bottom: 3%;
+}
+
+
+
+.item-babak button {
+    background: linear-gradient(274.84deg, #C83661 0%, #C83C32 100%);
+    border-radius: 10px;
+    border: none;
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    padding-left: 3.6%;
+    padding-right: 2.5%;
+    font-size: 21.5px;
+    color: white;
+    font-family: 'Rowdies', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+
+.item-babak-opacity {
+    opacity: 0.5;
+}
+
+/* Timeline Section */
+
+.bakso-tim {
+    max-width: 17.8%;
+    position: absolute;
+    top: 347%;
+    z-index: -11;
+}
+
+.mie-kiri-tim {
+    position: absolute;
+    top: 529%;
+    max-width: 4%;
+}
+
+.mie-kanan-tim {
+    position: absolute;
+    right: 0;
+    top: 445%;
+    max-width: 4%;
+}
+
+/* Partnersip Section */
+
+#partnership {
+    margin-top: 2.2%;
+    background-color: #151F29;
+
+}
+
+.partnership {
+    text-align: center;
+    color: white;
+}
+
+.partnership h3 {
+    padding-top: 6.2%;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 110.2%;
+    letter-spacing: 0.05em;
+}
+
+.partnership h4 {
+    margin-top: -41px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+.sponsor-part {
+    margin-top: 8.5%;
+    margin-right: 1.4%;
+    margin-bottom: 11%;
+}
+
+.sponsor-part img {
+    width: 11.2%;
+    margin-left: 1.95%;
+}
+
+/* Footer Section */
+
+/* Footer Section */
+
+#footer {
+    color: white;
+    margin-top: 6%;
+}
+
+.credit {
+    display: flex;
+    margin-bottom: 6.4%;
+    position: relative;
+}
+
+.item-social-media {
+    position: relative;
+    padding-bottom: 6%;
+}
+
+.item-social-media span {
+    margin-left: 4%;
+    font-size: 23px;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+.left-credit {
+    margin-top: 1.85%;
+    margin-left: 6%;
+    width: 30%;
+}
+
+.left-credit img {
+    width: 45.5%;
+    margin-bottom: 3.3%;
+}
+
+.left-credit p {
+    font-size: 21.8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+
+}
+
+.right-credit {
+    margin-left: 10%;
+}
+
+.center-credit {
+    width: 20%;
+}
+
+.center-credit h3 {
+    font-size: 23.5px;
+}
+
+.center-credit img {
+    width: 9.3%;
+
+}
+
+.center-credit span {
+    font-size: 22.5px;
+    padding: 0;
+}
+
+.social-media {
+    margin-top: 12%;
+}
+
+
+
+.right-credit {
+    width: 25%;
+    margin-left: 17%;
+
+}
+
+.right-credit h3 {
+    font-size: 22px;
+    font-family: 'Rowdies', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+.right-credit-p-laptop {
+    padding-top: 1.1%;
+    font-size: 21.8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+.right-credit-p-hp {
+    display: none;
+}
+
+
+
+/* CopyRight */
+
+.copyright {
+    text-align: center;
+    background-color: #151F29;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+@media (max-width:689px) and (min-width: 651px) {
+    #myTopnav a  {
+        font-size: 9.5px;
+    }
+}
+
+@media (max-width:776px) {
+    #myTopnav{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 952px) and (min-width:652px) {
+    .card-competition {
+        display: flex;
+    }
+    .card-small {
+        width: 50%;
+    }
+
+
+
+    .card-competition {
+        display: block;
+    }
+
+
+    .card {
+        margin-left: 17%;
+        margin-top: 5%;
+    }
+    
+    .card-big {
+        width: 49%;
+    }
+
+    
+    
+    
+
+    
+
+    
+
+    .pendaftaran img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 810px) {
+    
+    
+}
+
+@media (max-width: 900px) and (min-width: 690px) {
+
+  #myTopnav a {
+      font-size: 12px;
+      position: relative;
+      
+      
+  }  
+  
+  
+}
+
+
+
+@media (max-width: 651px) {
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        top: -5px;
+        right: -73px;
+    }
+
+
+    .responsive a.icon {
+        position: absolute;
+        top: -5px;
+        right: -73px;
+
+    }
+
+    .topnav.responsive .navLink {
+
+        display: block;
+        text-align: center;
+    }
+
+    .icon {
+        display: none;
+        position: absolute;
+        top: 0;
+
+    }
+    .card-big {
+        width: 90%;
+    }
+
+    .ilusi-hp {
+        display: block;
+        position: absolute;
+        margin-top: 5%;
+    }
+
+
+    .round-black {
+        display: none;
+    }
+    .hex-bg {
+        display: none;
+    }
+    .round-black-hp {
+        display: block;
+        position: absolute;
+        top: 240px;
+        right: 0;
+        z-index: -8;
+    }
+
+    .button-card {
+        margin-bottom: 20px;
+    }
+
+    .text-button-card {
+        position: relative;
+        padding-right: 40px;
+    }
+
+    .event h3 {
+        margin-top: 20%;
+        font-size: 34px;
+    }
+
+    .event-scroll {
+        margin-top: -50px;
+    }
+
+    #timeline {
+        margin-top: 22.5%;
+    }
+
+    .card-event {
+        margin-top: -4px;
+    }
+
+    .card h3 {
+        font-size: 21px;
+    }
+
+    .hp-c {
+        margin-top: 10%;
+        width: 27%;
+    }
+
+    .server-c {
+        margin-top: 13%;
+        width: 29%;
+    }
+
+    .laptop-c {
+        width: 47%;
+        margin-right: 10px;
+        margin-top: 24px;
+    }
+
+    .img-c {
+        margin-top: 23px;
+        margin-right: 2.5%;
+        width: 48%;
+    }
+
+    .button-card {
+        margin-top: -10px;
+        padding-left: 25px;
+        text-align: center;
+        margin-right: 10px;
+
+    }
+
+    .text-button-card {
+
+        font-size: 18px;
+        padding-left: 74px;
+        position: relative;
+        left: 20px;
+
+    }
+
+    .competition {
+        width: 95%;
+        margin-left: 5%;
+
+    }
+
+    .card-small {
+        padding: 0px;
+        margin-top: 65px;
+    }
+
+    #competition {
+        margin-top: -160px;
+    }
+
+    .bakso-bg {
+        display: none;
+    }
+
+    .bakso-bg-hp {
+        position: relative;
+        bottom: 180px;
+        z-index: -8;
+    }
+
+    .heading-comp {
+
+        font-size: 35px;
+    }
+
+    .mie-kiri-tim {
+        display: none;
+    }
+
+    .mie-kanan-tim {
+        display: none;
+    }
+
+    .oren-bg {
+        margin-top: 20%;
+        width: 37%;
+        height: 17%;
+    }
+
+    .hex-bg {
+        max-width: 20%;
+        margin-top: 18%;
+
+    }
+
+    #myTopnav a.icon {
+        float: none;
+        margin-right: 140px;
+    }
+
+    .topnav {
+        display: grid;
+    }
+
+    #myTopnav {
+        margin-right: 20px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    .button-about-text {
+        font-size: 10px;
+    }
+
+    .container-handphone {
+        position: relative;
+    }
+
+    
+
+
+    .container-handphone {
+        padding: 3px;
+        padding-bottom: 0px;
+        padding-left: 1px;
+    }
+
+    #navbar {
+        margin: auto;
+        overflow: hidden;
+        padding: 14.5px 32px;
+        padding-top: 13px;
+
+    }
+
+
+
+    .fa {
+        font-size: 27px;
+        padding-bottom: 3px;
+    }
+
+    .logo {
+       
+        width: 25.3%;
+        margin-right: 52%;
+        padding-top: 8px;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    /* Hero Section */
+
+    .text-button-more {
+        padding-left: 12px;
+        padding-bottom: 8px;
+        position: relative;
+        top: -2px;
+        right: 3px;
+    }
+
+
+    .hero-view {
+        display: block;
+        margin-top: 38%;
+    }
+
+    .hero-view img {
+        max-width: 84%;
+
+        position: relative;
+        right: 40px;
+    }
+
+    .hero-view p {
+        font-size: 19.5px;
+        margin-left: 3px;
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .hero-view-text {
+        margin-left: -14%;
+        padding-right: 10%;
+    }
+
+    .arrow-right-h {
+        margin-top: 2px;
+        position: relative;
+        right: 20px;
+        padding-left: 42%;
+    }
+
+    .button-h {
+        margin-top: 19%;
+        padding-left: 18px;
+
+    }
+    
+
+    /* Div sponsor */
+
+    .sponsor h3 {
+        font-family: Rowdies;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+        padding-left: 73.5%;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .sponsor {
+        padding-top: 11.5%;
+        margin-left: 35%;
+        width: 70%;
+        color: white;
+    }
+
+    .sponsor img {
+        width: 70%;
+        padding-right: 3.4%;
+    }
+
+    .indosat-logo {
+        margin-bottom: 3%;
+    }
+
+    /* About Section */
+
+    #about {
+        color: white;
+        position: relative;
+        overflow-y: hidden;
+    }
+
+    .about {
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 45%;
+    }
+
+    .about h2 {
+        font-size: 36px;
+    }
+
+    .isi-about h3 {
+        text-align: left;
+        font-family: Rowdies;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 124.2%;
+        letter-spacing: 0.05em;
+    }
+
+
+
+    .isi-about {
+        font-size: 21px;
+        line-height: 1.3;
+        width: 94%;
+
+        margin: auto;
+    }
+
+    .isi-about p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%;
+        /* or 21px */
+
+        text-align: justify;
+        letter-spacing: 0.015em;
+        margin-top: 10.3%;
+    }
+
+    .p-2_about {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .about-button {
+        
+        background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
+        border-radius: 10px;
+        padding-left: 72px;
+        border: none;
+        padding-bottom: 16px;
+        font-size: 22px;
+        margin-top: 73px;
+        font-family: 'Rowdies',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        
+        line-height: 114.2%;
+        /* or 27px */
+
+       
+        letter-spacing: 0.05em;
+
+    }
+
+    .button-about-text {
+        font-size: 21px;
+        font-style: 100;
+        width: 50%;
+    }
+
+    .about-button a {
+        position: relative;
+        right: 48px;
+    }
+
+    .arrow-right-a {
+        padding-top: 5.4px;
+        padding-left: 10px;
+        margin-left: 20px;
+        max-width: 11.5%;
+        position: relative;
+        top: 6px;
+        left: 20px;
+        padding-right: 7px;
+    }
+
+    /* Competition Section */
+
+    .card-competition {
+        display: block;
+        margin-left: 0%;
+    }
+
+
+    /* Event Section */
+
+    .card-event {
+        display: block;
+        margin-right: 5%;
+    }
+
+    .card-e {
+
+        padding: 32%;
+        margin-top: 17%;
+    }
+
+    /* Timeline Section */
+
+    #timeline {
+        color: white;
+        text-align: center;
+    }
+
+
+
+    #timeline h1 {
+        font-size: 34px;
+        font-family: Rowdies;
+        font-style: normal;
+        font-weight: normal;
+        /* font-size: 56px; */
+
+        letter-spacing: 0.05em;
+    }
+
+    #timeline img {
+        margin-top: 10px;
+        width: 12.1%;
+        height: 520px;
+        padding-top: 1.5%;
+    }
+
+    #timeline p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12.5px;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+        overflow-y: hidden;
+    }
+
+    .detail-babak {
+        text-align: left;
+        margin-left: 3.6%;
+        width: 100%;
+    }
+
+    #partnership {
+        margin-top: 16.3%;
+    }
+
+    .partnership h3 {
+        font-size: 34.5px;
+    }
+
+    .partnership h4 {
+        margin-top: -22px;
+        font-size: 24px;
+    }
+
+    .sponsor-part {
+        margin-left: 4%;
+    }
+
+    .sponsor-part img {
+        margin-top: 9%;
+        margin-left: 2.5%;
+        width: 13%;
+    }
+
+    .credit {
+        margin-top: -110px;
+    }
+
+    .center-credit {
+        margin-top: 7px;
+    }
+
+    .right-credit h3{
+        margin-top: 28px;
+    }
+
+    #timeline h1 {
+        margin-top: 3.7%;
+        padding-left: 4%;
+        padding-top: 16.8px;
+
+    }
+
+    .pendaftaran {
+        margin-top: 9.6%;
+        display: flex;
+        text-align: center;
+        padding-left: 7%;
+    }
+
+
+    .item-babak {
+        margin-bottom: 3.5%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+
+
+    .item-babak button {
+        background: linear-gradient(274.84deg, #C83661 0%, #C83C32 100%);
+        border-radius: 5px;
+        border: none;
+        padding-top: 3.1%;
+        padding-bottom: 3.1%;
+        padding-left: 5.6%;
+        padding-right: 5.4%;
+        font-size: 15px;
+        color: white;
+        font-family: 'Rowdies', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+    }
+
+
+    .item-babak-opacity {
+        opacity: 0.5;
+    }
+
+    /* Footer Section */
+
+    #footer {
+        color: white;
+        margin-top: 11%;
+    }
+
+    .credit {
+        display: block;
+        margin-bottom: 6.4%;
+        position: relative;
+    }
+
+    .item-social-media {
+
+        padding-bottom: 0%;
+        display: flex;
+        padding-right: 6.8%;
+        width: 9.5%;
+        left: 90px;
+    }
+
+
+
+    .item-social-media span {
+        margin-left: 4%;
+        font-size: 23px;
+        align-items: center;
+        position: absolute;
+        top: 1%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130.2%;
+        letter-spacing: 0.005em;
+        display: none;
+    }
+
+    .left-credit {
+        margin-top: 36%;
+        margin-left: 6%;
+        width: 80%;
+        text-align: center;
+    }
+
+    .left-credit img {
+        max-width: 43.5%;
+        margin-top: 2%;
+        margin-bottom: 3.3%;
+        margin-left: 10%;
+    }
+
+    .left-credit p {
+        padding-left: 35px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        overflow-y: hidden;
+    }
+
+    .right-credit {
+        margin-left: 10%;
+    }
+
+    .center-credit {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+
+
+    .center-credit h3 {
+        font-size: 20px;
+
+    }
+
+    .center-credit img {
+        width: 300%;
+        padding-top: 2px;
+    }
+
+    .center-credit span {
+        font-size: 22.5px;
+        padding: 0;
+    }
+
+    .social-media {
+        margin-top: -5px;
+        display: flex;
+    }
+
+
+
+    .right-credit {
+        margin-top: 7.8%;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .right-credit h3 {
+        font-size: 18px;
+        font-family: 'Rowdies', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+        overflow-y: hidden;
+    }
+
+    .right-credit-p-hp {
+        padding-top: 3%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        display: block;
+        overflow-y: hidden;
+    }
+
+    .right-credit-p-laptop {
+        display: none;
+    }
+
+
+
+    /* CopyRight */
+
+    .copyright {
+        text-align: center;
+        background-color: #151F29;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%;
+        letter-spacing: 0.005em;
+    }
+
+    .copyright p {
+        overflow-y: hidden;
+    }
+
+    /* Deleted content responsive*/
+
+    .mie-bg {
+        display: none;
+    }
+
+    .bakso-tim {
+        display: none;
+    }
+
+    .omlet-bg {
+        display: none;
+    }
+
+    .card {
+        margin-top: 8%;
+    }
+
+    .heading-comp {
+        margin-top: 76%;
+    }
+
+    .event h3{
+        margin-top: 33%;
+    }
+
+    .pendaftaran img {
+        display: none;
+    }
+}
+
+/* Responsive Hp */
+
+@media (max-width: 385px) {
+    .button-about-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:385px) {
+    .text-button-card {
+        position: relative;
+        left: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .button-about-text {
+        font-size: 13px;
+    }
+}
+

@@ -1,0 +1,11 @@
+<svg width="324" height="189" viewBox="0 0 324 189" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="32.3188" y="0.853668" width="258.078" height="187.46" fill="#F18505"/>
+<path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M111.925 149.794H0.219727V188.314H323.781V149.794H210.791V169.054H111.925V149.794Z" fill="#E73A12"/>
+<g opacity="0.7">
+<rect x="117.582" y="43.2247" width="17.9756" height="55.2108" transform="rotate(45 117.582 43.2247)" fill="#E73A12"/>
+<rect width="17.9756" height="55.2108" transform="matrix(-0.707107 0.707107 0.707107 0.707107 91.2529 69.742)" fill="#E73A12"/>
+<rect x="204.242" y="120.209" width="17.9756" height="55.2108" transform="rotate(-135 204.242 120.209)" fill="#E73A12"/>
+<rect width="17.9756" height="55.2108" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 230.572 93.6915)" fill="#E73A12"/>
+<path d="M166.494 41.9408H183.827L154.938 121.547H137.604L166.494 41.9408Z" fill="#E73A12"/>
+</g>
+</svg>

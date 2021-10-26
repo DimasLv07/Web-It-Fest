@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    overflow-x: hidden;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #081420;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #dedada;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar Section */
+
+#navbar {
+    background: rgba(8, 20, 32, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 17px 80px 17px 80px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.logo {
+    width: 11.5%;
+    padding-top: 6px;
+}
+
+#myTopnav {
+    float: right;
+    margin-right: 75px;
+    padding-right: 70px;
+    padding-top: 5px;
+    font-size: 14.5px;
+}
+
+
+#myTopnav a {
+    
+    float: left;
+    margin: auto 23px;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 11px;
+    margin-top: 13px;
+}
+
+
+
+.button-login {
+    border: 2px solid white;
+    padding: 8px 23px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.button-login:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+  }
+
+@media (max-width: 900px) {
+    #myTopnav {
+        padding-right: 20px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    #myTopnav a.icon {
+        margin-right: 140px;
+    }
+
+    #myTopnav a {
+        float: none;
+        
+    }
+
+    .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    
+  }
+
+  
+  .responsive a.icon {
+    position: absolute;
+    right: -40px;
+    top: 8px;
+   
+  }
+  .topnav.responsive .navLink {
+    float: none;
+    display: block;
+    text-align:center;
+  }
+
+ .icon {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: -40px;
+  }
+}
+
+
+/* Showcase Section */
+
+
+@media (min-width: 450px){
+    #showcase {
+        min-height: 290px;
+        background: url("../img/showcase-img.png") -128px -425px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 7.4%;
+        opacity: 0.5;
+    }
+}
+
+
+
+/* Detail Section */
+
+
+.detail-lomba {
+    display: flex;
+    margin-top: 3.8%;
+    color: white;
+}
+
+
+
+.logo-uiUx {
+    min-width: 15%;
+    height: auto;
+    padding-bottom: 39.5%;
+    padding-right: 10%;
+    margin-left: 7.4%;
+}
+
+
+.heading-text-lomba {
+    color: #F18505;
+    font-size: 54px;
+    font-family: 'Rowdies', cursive;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    line-height: 114.2%;
+}
+
+.queto-detail {
+    overflow-y: hidden;
+    font-size: 43px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    line-height: 130.2%;
+}
+
+.detail-text-lomba p {
+    width: 93%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.66px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 0.015em;
+    margin-top: 6.5%;
+}
+
+.btn {
+    margin-top: 3.2%;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.button-orange {
+    background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 2.3% 7%;
+    
+}
+
+.button-outline {
+    border: 3px solid #FFFFFF;
+    padding: 2% 4.5%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin-left: 1.8%;
+}
+
+.round-detail {
+    position: absolute;
+    right: 0%;
+    z-index: -5;
+    top: 53.5%;
+    width: 43.5%;
+}
+
+.ilusi-detail {
+    position: absolute;
+    top: 148%;
+    width: 30.5%;
+    z-index: -9;
+}
+
+/* Timeline Section */
+
+#timeline {
+    color: white;
+    text-align: center;
+}
+
+
+
+#timeline h1 {
+    font-size: 50px;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 56px; */
+    padding-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+#timeline img {
+    width: 6%;
+    height: 770px;
+    padding-top: 1.5%;
+}
+
+#timeline p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6px;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+    
+}
+
+.detail-babak {
+    text-align: left;
+    margin-left: 3.6%;
+
+    width: 100%;
+}
+
+#timeline h1 {
+    margin-top: 32%;
+    padding-top: 16.8px;
+
+}
+
+.pendaftaran {
+    margin-top: 9.6%;
+    display: flex;
+    text-align: center;
+    padding-left: 34%;
+}
+
+
+.item-babak {
+    margin-bottom: 3.5%;
+}
+
+
+
+.item-babak button {
+    background: linear-gradient(274.84deg, #C83661 0%, #C83C32 100%);
+    border-radius: 10px;
+    border: none;
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    padding-left: 3.6%;
+    padding-right: 3.4%;
+    font-size: 21.5px;
+    color: white;
+    font-family: 'Rowdies', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+
+.item-babak-opacity {
+    opacity: 0.5;
+}
+
+/* Footer Section */
+
+#footer {
+    color: white;
+    margin-top: 11%;
+}
+
+.credit {
+    display: flex;
+    margin-bottom: 6.4%;
+    position: relative;
+}
+
+.item-social-media {
+    position: relative;
+    padding-bottom: 6%;
+}
+
+.item-social-media span {
+    margin-left: 4%;
+    font-size: 23px;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+.left-credit {
+    margin-top: 1.85%;
+    margin-left: 6%;
+    width: 30%;
+}
+
+.left-credit img {
+    width: 45.5%;
+    margin-bottom: 3.3%;
+}
+
+.left-credit p {
+    font-size: 21.8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+
+}
+
+.right-credit {
+    margin-left: 10%;
+}
+
+.center-credit {
+    width: 20%;
+}
+
+.center-credit h3 {
+    font-size: 23.5px;
+}
+
+.center-credit img {
+    width: 9.3%;
+
+}
+
+.center-credit span {
+    font-size: 22.5px;
+    padding: 0;
+}
+
+.social-media {
+    margin-top: 12%;
+}
+
+
+
+.right-credit {
+    width: 25%;
+    margin-left: 17%;
+
+}
+
+.right-credit h3 {
+    font-size: 22px;
+    font-family: 'Rowdies', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 114.2%;
+    letter-spacing: 0.05em;
+}
+
+.right-credit-p-laptop {
+    padding-top: 1.1%;
+    font-size: 21.8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+.right-credit-p-hp {
+    display: none;
+}
+
+
+
+/* CopyRight */
+
+.copyright {
+    text-align: center;
+    background-color: #151F29;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130.2%;
+    letter-spacing: 0.005em;
+}
+
+
+/* Responsive HandPhone */
+
+@media (min-width: 500px) {
+    .icon-navbar {
+            display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Bangian Navbar */
+
+    .container {
+        position: relative;
+        width: 85%;
+    }
+
+    #navbar {
+        margin: auto;
+        overflow: hidden;
+        padding: 14.5px 32px;
+        padding-top: 13px;
+        
+    }
+
+
+
+    .fa {
+        font-size: 27px;
+       padding-bottom: 3px;
+    }
+
+    .logo {
+        width: 25%;
+        margin-right: 52%;
+    }
+    
+    .navbar-links {
+        display: none;
+    }
+
+    /* Bagian Showcase */
+
+    #showcase {
+        opacity: 0.5;
+        margin-top: 18.5%;
+        min-height: 319px;
+        background: url("../img/Banner-Design.png") 0px -100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #detail {
+        position: relative;
+        bottom: 105px;
+        overflow-y: hidden;
+    }
+
+    .detail-lomba {
+        display: block;
+        margin-top: 3.8%;
+        color: white;
+        
+    }
+
+    .round-detail {
+        display: none;
+    }
+        
+    
+    .logo-uiUx {
+        min-width: 44%;
+        height: auto;
+        padding-bottom: 0;
+        padding-right: 10%;
+        margin-left: 28%; 
+        position: relative;
+        
+        
+    }
+    
+    .detail-text-lomba {
+        margin-top: 16.4%;
+    }
+    
+    .heading-text-lomba {
+        color: #F18505;
+        font-size: 34px;
+        font-family: 'Rowdies', cursive;
+        letter-spacing: 0.05em;
+        font-weight: 300;
+        line-height: 114.2%;
+        overflow-y: hidden;
+        position: relative;
+        
+    }
+    
+    .queto-detail {
+        padding-top: 0;
+        font-size: 24.2px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.005em;
+        line-height: 130.2%;
+        overflow-y: hidden;
+        width: 100%;
+        margin-top: -17px;
+    }
+    
+    .detail-text-lomba p {
+        width: 97%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 145.2%;
+        margin-top: -6px;
+        letter-spacing: -0.035em;
+    }
+    
+    .btn {
+        margin-top: 3.2%;
+        font-size: 13.5px;
+        cursor: pointer;
+    }
+    
+    .button-orange {
+        background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 2.5% 7.5%;
+        
+    }
+    
+    .button-outline {
+        border: 3px solid #FFFFFF;
+        padding: 2% 5%;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        margin-left: 1.8%;
+    }
+    
+    
+    
+    
+    
+    /* Timeline Section */
+    
+    #timeline {
+        color: white;
+        text-align: center;
+    }
+    
+    
+    
+    #timeline h1 {
+        font-size: 34px;
+        font-family: Rowdies;
+        font-style: normal;
+        font-weight: normal;
+        /* font-size: 56px; */
+
+        letter-spacing: 0.05em;
+    }
+    
+    #timeline img {
+        margin-top: 10px;
+        width: 12.1%;
+        height: 520px;
+        padding-top: 1.5%;
+    }
+    
+    #timeline p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12.5px;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+        overflow-y: hidden;
+    }
+    
+    .detail-babak {
+        text-align: left;
+        margin-left: 3.6%;
+        width: 100%;
+    }
+    
+    #timeline h1 {
+        margin-top: 3.7%;
+        padding-left: 4%;
+        padding-top: 16.8px;
+    
+    }
+    
+    .pendaftaran {
+        margin-top: 9.6%;
+        display: flex;
+        text-align: center;
+        padding-left: 7%;
+    }
+    
+    
+    .item-babak {
+        margin-bottom: 3.5%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    
+    
+    
+    .item-babak button {
+        background: linear-gradient(274.84deg, #C83661 0%, #C83C32 100%);
+        border-radius: 5px;
+        border: none;
+        padding-top: 3.1%;
+        padding-bottom: 3.1%;
+        padding-left: 5.6%;
+        padding-right: 5.4%;
+        font-size: 15px;
+        color: white;
+        font-family: 'Rowdies', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+    }
+    
+    
+    .item-babak-opacity {
+        opacity: 0.5;
+    }
+    
+    /* Footer Section */
+    
+    #footer {
+        color: white;
+        margin-top: 11%;
+    }
+    
+    .credit {
+        display: block;
+        margin-bottom: 6.4%;
+        position: relative;
+    }
+    
+    .item-social-media {
+
+        padding-bottom: 0%;
+        display: flex;
+        padding-right: 6.8%;
+        width: 9.5%;
+        left: 90px;
+    }
+
+    
+    
+    .item-social-media span {
+        margin-left: 4%;
+        font-size: 23px;
+        align-items: center;
+        position: absolute;
+        top: 1%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130.2%;
+        letter-spacing: 0.005em;
+        display: none;
+    }
+    
+    .left-credit {
+        margin-top: 26%;
+        margin-left: 6%;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .left-credit img {
+        width: 43.5%;
+        margin-top: 2%;
+        margin-bottom: 3.3%;
+        margin-left:10%;
+    }
+    
+    .left-credit p {
+        padding-left: 35px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%;
+        text-align: center;
+        letter-spacing: 0.005em; 
+        overflow-y: hidden;
+    }
+    
+    .right-credit {
+        margin-left: 10%;
+    }
+    
+    .center-credit {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+
+    
+    .center-credit h3 {
+        font-size: 20px;
+        
+    }
+    
+    .center-credit img {
+        width: 300%;
+        padding-top:2px;
+    }
+    
+    .center-credit span {
+        font-size: 22.5px;
+        padding: 0;
+    }
+    
+    .social-media {
+        margin-top: -5px;
+        display: flex;
+    }
+    
+    
+    
+    .right-credit {
+        margin-top: 7.8%;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .right-credit h3 {
+        font-size: 18px;
+        font-family: 'Rowdies', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 114.2%;
+        letter-spacing: 0.05em;
+        overflow-y: hidden;
+    }
+    
+    .right-credit-p-hp {
+        padding-top: 3%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%; 
+        text-align: center;
+        letter-spacing: 0.005em;
+        display: block;
+        overflow-y: hidden;
+    }
+
+    .right-credit-p-laptop {
+        display: none;
+    }
+    
+    
+    
+    /* CopyRight */
+    
+    .copyright {
+        text-align: center;
+        background-color: #151F29;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.2%;
+        letter-spacing: 0.005em;
+    }
+
+    .copyright p {
+        overflow-y: hidden;
+    }
+}
+
+@media (max-width: 408px ) {
+    .navLink {
+        position: relative;
+        left: 110px;
+    }
+}
+
+@media (max-width: 1350px) {
+    #detail {
+        overflow-y: hidden;
+        position: relative;
+        bottom: 130px;
+    }
+
+
+    .detail-lomba img {
+        width: 25%;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 34%;
+    }
+
+
+
+    .detail-lomba {
+        display: block;
+    }
+    .pendaftaran img {
+        display: none;
+    }
+
+    .pendaftaran {
+        padding-left: 0px;
+    }
+}
+
+
