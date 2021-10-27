@@ -32,6 +32,10 @@ a:hover {
     overflow: hidden;
 }
 
+.right-credit-p-hp {
+    display: none;
+}
+
 /* Navbar Section */
 
 
@@ -509,8 +513,9 @@ a:hover {
     #showcase {
         opacity: 0.5;
         margin-top: 18.5%;
-        min-height: 319px;
-        background: url("../img/web-banner-hp.png") -8px;
+        min-height: 359px;
+        background: url("../img/design-banner-hp.png") 0px -25px;
+        background-size: cover;
         
     }
 
@@ -860,10 +865,10 @@ a:hover {
 
 
     .detail-lomba img {
-        width: 35%;
+        width: 23%;
         padding-bottom: 0px;
         padding-right: 0px;
-        margin-left: 28%;
+        margin-left: 35%;
     }
 
 
@@ -877,6 +882,12 @@ a:hover {
 
     .pendaftaran {
         padding-left: 0px;
+    }
+
+    .detail-babak {
+        
+        margin-left:0%;
+        
     }
 }
 
