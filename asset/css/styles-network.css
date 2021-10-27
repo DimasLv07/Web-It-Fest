@@ -36,15 +36,14 @@ a:hover {
 
 #navbar {
     background: rgba(8, 20, 32, 0.5);
-    
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(4px);
-    
     padding: 17px 80px 17px 80px;
     position: fixed;
     z-index: 1;
     width: 100%;
 }
+
 
 .logo {
     width: 11.5%;
@@ -56,13 +55,12 @@ a:hover {
     margin-right: 75px;
     padding-right: 70px;
     padding-top: 5px;
-    font-size: 14.5px;
+    font-size: 17.5px;
 }
 
 
-
-
 #myTopnav a {
+    
     float: left;
     margin: auto 23px;
     text-decoration: none;
@@ -70,6 +68,8 @@ a:hover {
     padding-top: 11px;
     margin-top: 13px;
 }
+
+
 
 .button-login {
     border: 2px solid white;
@@ -87,7 +87,9 @@ a:hover {
     display: none;
   }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
+
+    
     #myTopnav {
         padding-right: 20px;
         margin-right: 0px;
@@ -96,6 +98,7 @@ a:hover {
 
     #myTopnav a.icon {
         margin-right: 140px;
+        padding-top: 4%;
     }
 
     #myTopnav a {
@@ -107,13 +110,14 @@ a:hover {
   .topnav a.icon {
     float: right;
     display: block;
+    
   }
 
   
   .responsive a.icon {
     position: absolute;
     right: -40px;
-    top: 0;
+    top: 8px;
    
   }
   .topnav.responsive .navLink {
@@ -125,7 +129,7 @@ a:hover {
  .icon {
     display: none;
     position: absolute;
-    top: 0;
+    top: 1%;
     right: -40px;
   }
 }
@@ -146,22 +150,24 @@ a:hover {
 }
 
 
+
 /* Detail Section */
 
 
 .detail-lomba {
     display: flex;
-    margin-top: 6.3%;
+    margin-top: 3.8%;
     color: white;
 }
+
 
 
 .logo-network {
     min-width: 15%;
     height: auto;
-    padding-bottom: 41%;
-    padding-right: 9.1%;
-    margin-left: 6.4%;
+    padding-bottom: 39.5%;
+    padding-right: 10%;
+    margin-left: 7.4%;
 }
 
 
@@ -175,6 +181,7 @@ a:hover {
 }
 
 .queto-detail {
+    overflow-y: hidden;
     font-size: 43px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -206,7 +213,8 @@ a:hover {
     border-radius: 10px;
     border: none;
     color: white;
-    padding: 2% 7%;
+    padding: 2.3% 7%;
+    
 }
 
 .button-outline {
@@ -216,6 +224,11 @@ a:hover {
     background-color: transparent;
     color: white;
     margin-left: 1.8%;
+}
+
+.button-outline:hover {
+    background-color: white;
+    color: black;
 }
 
 .round-detail {
@@ -265,16 +278,18 @@ a:hover {
     font-size: 14.6px;
     line-height: 114.2%;
     letter-spacing: 0.05em;
+    
 }
 
 .detail-babak {
     text-align: left;
     margin-left: 3.6%;
+
     width: 100%;
 }
 
 #timeline h1 {
-    margin-top: 35%;
+    margin-top: 32%;
     padding-top: 16.8px;
 
 }
@@ -410,7 +425,7 @@ a:hover {
     letter-spacing: 0.05em;
 }
 
-.right-credit p {
+.right-credit-p-laptop {
     padding-top: 1.1%;
     font-size: 21.8px;
     font-family: 'Poppins', sans-serif;
@@ -418,6 +433,10 @@ a:hover {
     font-weight: 500;
     line-height: 130.2%;
     letter-spacing: 0.005em;
+}
+
+.right-credit-p-hp {
+    display: none;
 }
 
 
@@ -435,13 +454,44 @@ a:hover {
     letter-spacing: 0.005em;
 }
 
+
+
+@media (max-width: 920px) and (min-width:652px){
+    .heading-text-lomba {
+        font-size: 2.4rem;
+    }
+
+    .queto-detail {
+        font-size: 2.4rem;
+    }
+
+    .left-credit p{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .center-credit img {
+        width: 14%;
+    }
+
+    .center-credit span {
+        font-size: 1rem;
+    }
+
+    .right-credit p {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive HandPhone */
+
 @media (min-width: 500px) {
     .icon-navbar {
             display: none;
     }
 }
 
-@media (max-width: 612px) {
+@media (max-width: 650px) {
     /* Bangian Navbar */
 
     .container {
@@ -465,7 +515,7 @@ a:hover {
     }
 
     .logo {
-        width: 25%;
+        width: 30%;
         margin-right: 52%;
     }
     
@@ -479,8 +529,9 @@ a:hover {
         opacity: 0.5;
         margin-top: 18.5%;
         min-height: 319px;
-        background: url("../img/network-banner-hp.png");
-        
+        background: url("../img/Banner-Design.png") 0px -100px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #detail {
@@ -502,7 +553,7 @@ a:hover {
         
     
     .logo-network {
-        width: 44%;
+        min-width: 44%;
         height: auto;
         padding-bottom: 0;
         padding-right: 10%;
@@ -564,7 +615,8 @@ a:hover {
         border-radius: 5px;
         border: none;
         color: white;
-        padding: 2% 7.5%;
+        padding: 2.5% 7.5%;
+        
     }
     
     .button-outline {
@@ -686,7 +738,7 @@ a:hover {
         display: flex;
         padding-right: 6.8%;
         width: 9.5%;
-        left: 90px;
+        left: 21%;
     }
 
     
@@ -707,7 +759,7 @@ a:hover {
     
     .left-credit {
         margin-top: 26%;
-        margin-left: 6%;
+        margin-left: 8%;
         width: 80%;
         text-align: center;
     }
@@ -819,14 +871,9 @@ a:hover {
     }
 }
 
-@media (max-width: 408px ) {
-    .navLink {
-        position: relative;
-        left: 110px;
-    }
-}
 
-@media (max-width: 1350px) {
+
+@media (max-width: 1350px) and (min-width: 651px) {
     #detail {
         overflow-y: hidden;
         position: relative;
@@ -841,6 +888,8 @@ a:hover {
         margin-left: 34%;
     }
 
+
+
     .detail-lomba {
         display: block;
     }
@@ -850,5 +899,52 @@ a:hover {
 
     .pendaftaran {
         padding-left: 0px;
+    }
+}
+
+@media (max-width:650px) {
+    #detail {
+        margin-top: -5%;
+    }
+
+    .detail-lomba img {
+        width: 15%;
+        
+        
+    }
+}
+
+@media (max-width: 408px) {
+    .button-orange {
+        padding-right: 9%;
+    }
+    .button-outline {
+        position: relative;
+        right: 6px;
+    }
+}
+
+@media (max-width: 710px) and (min-width: 651px){
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1180px) {
+    #myTopnav .navLink {
+        position: relative;
+        bottom: 8px;
+    }
+}
+
+@media (max-width:345px) {
+    #myTopnav a.icon {
+        padding-top: 2%;
+    }
+}
+
+@media (max-width: 666px) {
+    #myTopnav .navLink {
+        font-size: 14px;
     }
 }

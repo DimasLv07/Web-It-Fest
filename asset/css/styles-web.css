@@ -58,7 +58,7 @@ a:hover {
     margin-right: 75px;
     padding-right: 70px;
     padding-top: 5px;
-    font-size: 14.5px;
+    font-size: 17.5px;
 }
 
 
@@ -92,7 +92,9 @@ a:hover {
     display: none;
   }
 
-@media (max-width: 500px) {
+
+
+@media (max-width: 650px) {
     #myTopnav {
         padding-right: 20px;
         margin-right: 0px;
@@ -101,6 +103,7 @@ a:hover {
 
     #myTopnav a.icon {
         margin-right: 140px;
+        
     }
 
     #myTopnav a {
@@ -118,7 +121,7 @@ a:hover {
   .responsive a.icon {
     position: absolute;
     right: -40px;
-    top: 0;
+    top: 0.5%;
    
   }
   .topnav.responsive .navLink {
@@ -130,10 +133,13 @@ a:hover {
  .icon {
     display: none;
     position: absolute;
-    top: 0;
+    top: 1%;
     right: -40px;
   }
 }
+
+
+
 
 
 /* Showcase Section */
@@ -215,7 +221,7 @@ a:hover {
     border-radius: 10px;
     border: none;
     color: white;
-    padding: 2% 7%;
+    padding: 2.5% 7%;
 }
 
 .button-outline {
@@ -225,6 +231,11 @@ a:hover {
     background-color: transparent;
     color: white;
     margin-left: 1.8%;
+}
+
+.button-outline:hover {
+    background-color: white;
+    color: black;
 }
 
 .round-detail {
@@ -451,8 +462,18 @@ a:hover {
     }
 }
 
-@media (max-width: 612px) {
+@media (max-width:650px) {
+    .icon {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 650px) {
     /* Bangian Navbar */
+
+    .pendaftaran img {
+        display: none;
+    }
 
     .container {
         position: relative;
@@ -512,11 +533,11 @@ a:hover {
         
     
     .logo-web {
-        width: 74%;
+        width: 64%;
         height: auto;
         padding-bottom: 0;
         padding-right: 1%;
-        margin-left: 13%; 
+        margin-left: 18%; 
         position: relative;
         
         
@@ -574,7 +595,7 @@ a:hover {
         border-radius: 5px;
         border: none;
         color: white;
-        padding: 2% 7.5%;
+        padding: 2.5% 7.5%;
     }
     
     .button-outline {
@@ -696,7 +717,7 @@ a:hover {
         display: flex;
         padding-right: 6.8%;
         width: 9.5%;
-        left: 90px;
+        left: 22%;
     }
 
     
@@ -829,14 +850,8 @@ a:hover {
     }
 }
 
-@media (max-width: 408px ) {
-    .navLink {
-        position: relative;
-        left: 110px;
-    }
-}
 
-@media (max-width: 1350px) {
+@media (max-width: 1350px) and (min-width:651px){
     #detail {
         overflow-y: hidden;
         position: relative;
@@ -848,7 +863,7 @@ a:hover {
         width: 35%;
         padding-bottom: 0px;
         padding-right: 0px;
-        margin-left: 34%;
+        margin-left: 28%;
     }
 
 
@@ -862,5 +877,110 @@ a:hover {
 
     .pendaftaran {
         padding-left: 0px;
+    }
+}
+
+@media (max-width: 920px) and (min-width:652px){
+    .heading-text-lomba {
+        font-size: 2.4rem;
+    }
+
+    .queto-detail {
+        font-size: 2.0rem;
+    }
+
+    .left-credit p{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .center-credit img {
+        width: 14%;
+    }
+
+    .center-credit span {
+        font-size: 1rem;
+    }
+
+    .right-credit p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 820px) and (min-width:651px) {
+    .logo {
+        width: 15%;
+    }
+}
+
+@media (max-width: 1150px) {
+    #myTopnav .navLink {
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 710px) and (min-width: 651px){
+    .btn {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:408px) {
+    .button-orange {
+        padding-right: 9%;
+    }
+    .button-outline {
+        margin-left: 2%;
+        position: relative;
+        right: 7px;
+    }
+}
+
+@media (max-width:530px) {
+    .right-credit p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:360px) {
+    .heading-text-lomba {
+        font-size: 23px;
+    }
+    .queto-detail {
+        font-size: 22px;
+    }
+
+    .detail-lomba p {
+        font-size: 14px;
+    }
+
+    .button-outline {
+        margin-left:2.5%;
+    }
+}
+
+@media (max-width:810px)  and (min-width:651px){
+    .detail-lomba img {
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width:695px) {
+    #myTopnav .navLink {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:345px) {
+    #myTopnav a.icon {
+        padding-top: 2%;
+    }
+}
+
+@media (max-width: 666px) {
+    #myTopnav .navLink {
+        font-size: 14px;
     }
 }

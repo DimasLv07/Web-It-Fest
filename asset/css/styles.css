@@ -92,7 +92,7 @@ background: rgba(8, 20, 32, 0.5);
     margin-right: 75px;
     padding-right: 70px;
     padding-top: 0px;
-    font-size: 14.5px;
+    font-size: 17.5px;
 }
 
 
@@ -179,6 +179,8 @@ background: rgba(8, 20, 32, 0.5);
     font-family: Rowdies;
     font-weight: 300;
     padding-top: 5px;
+    position: relative;
+    top: -5px;
 }
 
 /* Div sponsor */
@@ -190,10 +192,11 @@ background: rgba(8, 20, 32, 0.5);
     font-size: 20px;
     line-height: 114.2%;
     letter-spacing: 0.05em;
-
-    padding-left: 73.5%;
+    margin-right: 12%;
+    text-align: right;
     position: relative;
-    bottom: 15px;
+   
+    
 }
 
 .sponsor {
@@ -805,9 +808,30 @@ background: rgba(8, 20, 32, 0.5);
     letter-spacing: 0.005em;
 }
 
-@media (max-width:689px) and (min-width: 651px) {
+@media (max-width:920px) {
+    .item-social-media img {
+        width: 13%;
+    }
+}
+
+@media (max-width:651px) {
+    .button-card-2 {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1292px) {
+    #myTopnav .navbar-links {
+        position: relative;
+        bottom: 7px;
+    }
+}
+
+@media (max-width:689px) and (min-width: 652px) {
     #myTopnav a  {
-        font-size: 9.5px;
+        position: relative;
+        bottom: 8px;
+        font-size: 12.5px;
     }
 }
 
@@ -872,6 +896,27 @@ background: rgba(8, 20, 32, 0.5);
   
 }
 
+@media (max-width:1050px) and (min-width:953px) {
+    .text-button-card {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media (max-width:900px) and (min-width:651px) {
+    .center-credit span{
+        font-size: 17px;
+    }
+
+    .left-credit p {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .right-credit p {
+        font-size: 16px;
+    }
+}
 
 
 @media (max-width: 651px) {
@@ -1115,7 +1160,7 @@ background: rgba(8, 20, 32, 0.5);
         padding-left: 12px;
         padding-bottom: 8px;
         position: relative;
-        top: -2px;
+        top: -1px;
         right: 3px;
     }
 
@@ -1294,6 +1339,10 @@ background: rgba(8, 20, 32, 0.5);
         margin-left: 0%;
     }
 
+    .button-card-2 {
+        margin-bottom: 25px;
+    }
+
 
     /* Event Section */
 
@@ -1448,15 +1497,15 @@ background: rgba(8, 20, 32, 0.5);
         padding-bottom: 0%;
         display: flex;
         padding-right: 6.8%;
-        width: 9.5%;
-        left: 90px;
+        width: 11.5%;
+        left: 18%;
     }
 
 
 
     .item-social-media span {
         margin-left: 4%;
-        font-size: 23px;
+        font-size: 15px;
         align-items: center;
         position: absolute;
         top: 1%;
@@ -1470,7 +1519,7 @@ background: rgba(8, 20, 32, 0.5);
 
     .left-credit {
         margin-top: 36%;
-        margin-left: 6%;
+        margin-left: 8%;
         width: 80%;
         text-align: center;
     }
@@ -1517,7 +1566,7 @@ background: rgba(8, 20, 32, 0.5);
     }
 
     .center-credit span {
-        font-size: 22.5px;
+        font-size: 14.5px;
         padding: 0;
     }
 
@@ -1632,6 +1681,25 @@ background: rgba(8, 20, 32, 0.5);
 @media (max-width: 320px) {
     .button-about-text {
         font-size: 13px;
+    }
+}
+
+@media (max-width:1180px) {
+    #myTopnav .navLink {
+        position: relative;
+        bottom: 8px;
+    }
+}
+
+@media (max-width:345px) {
+    #myTopnav a.icon {
+        padding-top: 1%;
+    }
+}
+
+@media (max-width: 402px) {
+    .sponsor h3 {
+        font-size: 12px;
     }
 }
 
