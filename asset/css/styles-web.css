@@ -867,7 +867,7 @@ a:hover {
 }
 
 
-@media (max-width: 1350px) and (min-width:651px) {
+@media (max-width: 1150px) and (min-width:651px) {
     #detail {
         overflow-y: hidden;
         position: relative;
