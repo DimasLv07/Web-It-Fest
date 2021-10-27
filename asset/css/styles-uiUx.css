@@ -148,7 +148,7 @@ a:hover {
 @media (min-width: 450px){
     #showcase {
         min-height: 290px;
-        background: url("../img/Web-banner.png") -128px -425px;
+        background: url("../img/Design-banner.png") -128px -425px;
         text-align: center;
         color: #ffffff;
         margin-top: 7.4%;
@@ -170,7 +170,7 @@ a:hover {
 
 
 .logo-uiUx {
-    min-width: 25.4%;
+    min-width: 15.4%;
     height: auto;
     padding-bottom: 42.2%;
     padding-right: 4.8%;
@@ -649,7 +649,7 @@ a:hover {
     
     .detail-babak {
         text-align: left;
-        margin-left: 3.6%;
+        margin-left:-7.5%;
         width: 100%;
     }
     
@@ -671,7 +671,7 @@ a:hover {
     .item-babak {
         margin-bottom: 3.5%;
         margin-top: 2%;
-        margin-left: 2%;
+        
     }
     
     
