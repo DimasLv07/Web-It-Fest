@@ -1660,6 +1660,19 @@ a:hover {
     .pendaftaran img {
         display: none;
     }
+
+    .item-social-media {
+        align-items: center;
+    }
+
+    .item-social-media a {
+        width: 60%;
+    }
+    
+    .item-social-media img {
+        width: 90%;
+    }
+   
 }
 
 /* Responsive Hp */

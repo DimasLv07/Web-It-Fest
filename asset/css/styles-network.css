@@ -852,6 +852,18 @@ a:hover {
     .copyright p {
         overflow-y: hidden;
     }
+
+    .item-social-media {
+        align-items: center;
+    }
+
+    .item-social-media a {
+        width: 60%;
+    }
+    
+    .item-social-media img {
+        width: 90%;
+    }
 }
 
 
