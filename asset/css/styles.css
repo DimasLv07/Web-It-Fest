@@ -3,7 +3,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 ::-webkit-scrollbar {
     width: 0;
@@ -68,12 +68,12 @@ a:hover {
 }
 
 #navbar {
-    
-background: rgba(8, 20, 32, 0.5);
-    
+
+    background: rgba(8, 20, 32, 0.5);
+
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(4px);
-   
+
     padding: 17px 80px 17px 80px;
     position: fixed;
     z-index: 1;
@@ -112,7 +112,7 @@ background: rgba(8, 20, 32, 0.5);
     padding: 8px 23px;
     width: auto;
     border-radius: 10px;
-    
+
 }
 
 .button-login:hover {
@@ -166,7 +166,7 @@ background: rgba(8, 20, 32, 0.5);
     font-size: 24px;
     margin-top: 32px;
     margin-top: 11.8%;
-   
+
 }
 
 .arrow-right-h {
@@ -195,8 +195,8 @@ background: rgba(8, 20, 32, 0.5);
     margin-right: 12%;
     text-align: right;
     position: relative;
-   
-    
+
+
 }
 
 .sponsor {
@@ -372,7 +372,7 @@ background: rgba(8, 20, 32, 0.5);
 }
 
 .heading-comp {
-    
+
     color: white;
     text-align: center;
     font-family: Rowdies;
@@ -434,7 +434,7 @@ background: rgba(8, 20, 32, 0.5);
     line-height: 114.2%;
     /* or 27px */
 
-    
+
     letter-spacing: 0.05em;
 }
 
@@ -448,15 +448,15 @@ background: rgba(8, 20, 32, 0.5);
     cursor: pointer;
     max-width: 100%;
     margin: auto;
-    
+
 }
 
-@media  (min-width: 965px) and (max-width: 960px) {
+@media (min-width: 965px) and (max-width: 960px) {
     .button-card {
         padding: 0.875rem 2.875rem;
     }
-    
-    
+
+
 }
 
 /* Competition Background */
@@ -828,7 +828,7 @@ background: rgba(8, 20, 32, 0.5);
 }
 
 @media (max-width:689px) and (min-width: 652px) {
-    #myTopnav a  {
+    #myTopnav a {
         position: relative;
         bottom: 8px;
         font-size: 12.5px;
@@ -836,7 +836,7 @@ background: rgba(8, 20, 32, 0.5);
 }
 
 @media (max-width:776px) {
-    #myTopnav{
+    #myTopnav {
         padding-right: 0px;
     }
 }
@@ -845,6 +845,7 @@ background: rgba(8, 20, 32, 0.5);
     .card-competition {
         display: flex;
     }
+
     .card-small {
         width: 50%;
     }
@@ -860,18 +861,18 @@ background: rgba(8, 20, 32, 0.5);
         margin-left: 17%;
         margin-top: 5%;
     }
-    
+
     .card-big {
         width: 49%;
     }
 
-    
-    
-    
 
-    
 
-    
+
+
+
+
+
 
     .pendaftaran img {
         display: none;
@@ -879,21 +880,18 @@ background: rgba(8, 20, 32, 0.5);
 
 }
 
-@media (max-width: 810px) {
-    
-    
-}
+@media (max-width: 810px) {}
 
 @media (max-width: 900px) and (min-width: 690px) {
 
-  #myTopnav a {
-      font-size: 12px;
-      position: relative;
-      
-      
-  }  
-  
-  
+    #myTopnav a {
+        font-size: 12px;
+        position: relative;
+
+
+    }
+
+
 }
 
 @media (max-width:1050px) and (min-width:953px) {
@@ -904,7 +902,7 @@ background: rgba(8, 20, 32, 0.5);
 }
 
 @media (max-width:900px) and (min-width:651px) {
-    .center-credit span{
+    .center-credit span {
         font-size: 17px;
     }
 
@@ -952,6 +950,7 @@ background: rgba(8, 20, 32, 0.5);
         top: 0;
 
     }
+
     .card-big {
         width: 90%;
     }
@@ -966,9 +965,11 @@ background: rgba(8, 20, 32, 0.5);
     .round-black {
         display: none;
     }
+
     .hex-bg {
         display: none;
     }
+
     .round-black-hp {
         display: block;
         position: absolute;
@@ -1119,7 +1120,7 @@ background: rgba(8, 20, 32, 0.5);
         position: relative;
     }
 
-    
+
 
 
     .container-handphone {
@@ -1144,7 +1145,7 @@ background: rgba(8, 20, 32, 0.5);
     }
 
     .logo {
-       
+
         width: 25.3%;
         margin-right: 52%;
         padding-top: 8px;
@@ -1201,7 +1202,7 @@ background: rgba(8, 20, 32, 0.5);
         padding-left: 18px;
 
     }
-    
+
 
     /* Div sponsor */
 
@@ -1290,7 +1291,7 @@ background: rgba(8, 20, 32, 0.5);
     }
 
     .about-button {
-        
+
         background: linear-gradient(92.74deg, #E73A12 0%, #F18505 100%);
         border-radius: 10px;
         padding-left: 72px;
@@ -1298,14 +1299,14 @@ background: rgba(8, 20, 32, 0.5);
         padding-bottom: 16px;
         font-size: 22px;
         margin-top: 73px;
-        font-family: 'Rowdies',sans-serif;
+        font-family: 'Rowdies', sans-serif;
         font-style: normal;
         font-weight: 300;
-        
+
         line-height: 114.2%;
         /* or 27px */
 
-       
+
         letter-spacing: 0.05em;
 
     }
@@ -1430,7 +1431,7 @@ background: rgba(8, 20, 32, 0.5);
         margin-top: 7px;
     }
 
-    .right-credit h3{
+    .right-credit h3 {
         margin-top: 28px;
     }
 
@@ -1652,7 +1653,7 @@ background: rgba(8, 20, 32, 0.5);
         margin-top: 76%;
     }
 
-    .event h3{
+    .event h3 {
         margin-top: 33%;
     }
 
@@ -1702,4 +1703,3 @@ background: rgba(8, 20, 32, 0.5);
         font-size: 12px;
     }
 }
-
